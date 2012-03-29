@@ -13,6 +13,7 @@ public class ShowQActivity extends Activity {
 		setContentView(R.layout.showq);
 		
 		
+		
 
 	}
 
