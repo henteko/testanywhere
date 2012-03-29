@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="ProgressIndicator" parent="@android:style/Widget.ProgressBar">
+		<item name="android:layout_width">30dip</item>
+		<item name="android:layout_height">30dip</item>
+		<item name="android:minWidth">30dip</item>
+		<item name="android:maxWidth">30dip</item>
+		<item name="android:minHeight">30dip</item>
+		<item name="android:maxHeight">30dip</item>
+		<item name="android:indeterminate">true</item>
+	</style>
+
+	<style name="Theme.NoBackground" parent="android:Theme">
+		<item name="android:windowBackground">@null</item>
+		<item name="android:windowNoTitle">true</item>
+	</style>
+
+	<style name="Theme.DefaultBackground" parent="android:Theme">
+		<item name="android:windowBackground">@drawable/facebook_gray</item>
+		<item name="android:windowNoTitle">true</item>
+	</style>
+	
+</resources>

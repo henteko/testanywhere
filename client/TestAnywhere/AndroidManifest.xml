@@ -5,13 +5,19 @@
     android:versionName="1.0" >
 
     <uses-sdk android:minSdkVersion="7" />
+    <supports-screens android:largeScreens="true"
+		android:normalScreens="true" android:smallScreens="true" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	
 
     <application
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name" >
         <activity
             android:name=".TestAnywhereActivity"
-            android:label="@string/app_name" >
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+			android:theme="@style/Theme.DefaultBackground">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

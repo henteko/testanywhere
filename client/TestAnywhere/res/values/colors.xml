@@ -1,0 +1,22 @@
+<resources>
+    <drawable name="black">#000000</drawable>
+    <drawable name="gray">#666666</drawable>
+    <drawable name="white">#ffffff</drawable>
+    <drawable name="light_grey">#747474</drawable>
+    <drawable name="snow">#fffafa</drawable>
+    <drawable name="yellow">#f8c44e</drawable>
+    <drawable name="dark_yellow">#FFC509</drawable>
+    <drawable name="dark_brown">#4C1900</drawable>
+    <drawable name="dark_blue">#546993</drawable>
+    <drawable name="red">#FF0000</drawable>
+    <drawable name="menu_blue">#2b2bff</drawable>
+    <drawable name="clear">#00ffffff</drawable>
+    <drawable name="page_title">#663700</drawable>
+    <drawable name="light_blue">#c3d6eb</drawable>    
+    <drawable name="brown">#663700</drawable>
+    <drawable name="light_brown">#a68d7f</drawable>
+    <drawable name="dimgray">#696969</drawable>
+    <drawable name="blue">#006666</drawable>
+	<drawable name="water_blue">#62BCC2</drawable>    
+	<drawable name="facebook_gray">#1D4088</drawable>
+</resources>
