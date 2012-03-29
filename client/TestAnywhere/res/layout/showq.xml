@@ -13,14 +13,20 @@
 			android:id="@+id/question"
 			android:layout_below="@+id/hoge"
 			android:layout_width="fill_parent"
-			android:layout_height="wrap_content" android:text="hogehogehoge"
+			android:layout_height="wrap_content" android:text="‎69592=3
+				11013=1
+				12121=0
+				55949=2
+				68592=4
+				99123=2
+				98765=(?)"
 			android:textSize="64px" android:textColor="@drawable/white"
 			android:gravity="center" />
 
 
 		<EditText  
 		android:layout_below="@+id/question"
-		android:hint="This is Hint" android:id="@+id/anser"
+		android:hint="Answer" android:id="@+id/anser"
 			android:inputType="text" android:layout_height="wrap_content"
 			android:layout_width="fill_parent">
 		</EditText>
