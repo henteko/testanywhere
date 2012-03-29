@@ -1,5 +1,7 @@
 package com.testanywhere;
 
+import com.facebook.android.Facebook;
+
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -12,6 +14,7 @@ public class StartActivity extends Activity {
 	public void onCreate(Bundle bundle) {
 		super.onCreate(bundle);
 		setContentView(R.layout.start);
+		
 
 		final Intent show = new Intent(this, ShowQActivity.class);
 		Button button = (Button) findViewById(R.id.startbutton);
