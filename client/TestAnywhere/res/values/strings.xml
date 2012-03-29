@@ -2,6 +2,7 @@
 <resources>
 
     <string name="hello">Hello World, TestAnywhereActivity!</string>
+    <string name="start">今日の質問なんだろな</string>
     <string name="app_name">TestAnywhere</string>
 
 </resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+
+	<LinearLayout android:id="@+id/header" android:gravity="top"
+		android:layout_centerInParent="true" android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<TextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:text="@string/start"
+			android:textSize="64px" android:textColor="@drawable/white"
+			android:gravity="center" />
+	</LinearLayout>
+
+	<RelativeLayout android:id="@+id/body" android:gravity="center"
+		android:layout_below="@id/header" android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+			<Button android:text="Start!!" android:id="@+id/startbutton"
+				android:layout_width="fill_parent" android:layout_height="wrap_content" />
+	</RelativeLayout>
+
+</RelativeLayout>
