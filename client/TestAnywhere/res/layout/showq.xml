@@ -26,13 +26,13 @@
 
 		<EditText  
 		android:layout_below="@+id/question"
-		android:hint="Answer" android:id="@+id/anser"
+		android:hint="input alphanumeric" android:id="@+id/anser"
 			android:inputType="text" android:layout_height="wrap_content"
 			android:layout_width="fill_parent">
 		</EditText>
 		
-		<Button 
-		android:layout_below="@+id/anser" android:text="Submit" android:id="@+id/submit"
+		<Button android:id="@+id/submitButton"
+		android:layout_below="@+id/anser" android:text="Submit"
 				android:layout_width="fill_parent" android:layout_height="wrap_content" />
 
 
